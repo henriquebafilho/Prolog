@@ -6,138 +6,21 @@ gerou(maria,julia).
 gerou(maria,pedro).
 gerou(pedro,lucas).
 
+%Pais de maria
+%?- gerou(X,maria).
+%(Ponto e vírgula para quando for mais de um)
 
+%Filhos de cleber
+%?- gerou(cleber,X),gerou(cleber,Y).
 
+%Avós de pedro
+%?- gerou(X,Y),gerou(Y,pedro).
 
+%Netos de cleber
+%?- gerou(cleber,Y),gerou(Y,X).
 
+%Quem gerou quem
+%?- gerou(X,Y).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%Árvore genealógica
+%?- gerou(X,Y),gerou(Y,Z),gerou(Z,A).
