@@ -1,0 +1,33 @@
+%Fatos
+gerou(kelly,maria).
+gerou(cleber,maria).
+gerou(cleber,bruna).
+gerou(maria,julia).
+gerou(maria,pedro).
+gerou(pedro,lucas).
+
+feminino(kelly).
+feminino(maria).
+feminino(julia).
+feminino(bruna).
+masculino(cleber).
+masculino(pedro).
+masculino(lucas).
+
+%Verificar quem é homem
+%masculino(X).
+
+%Verificar quem é mulher
+%feminino(X).
+
+%Quem são os avós da julia
+%gerou(X,Y),gerou(Y,julia).
+
+%Quem é o avô de julia
+%gerou(Avô,Y),gerou(Y,julia),masculino(Avô).
+
+%Quem é a avó de julia
+%gerou(Avó,Y),gerou(Y,julia),masculino(Avó).
+
+%Quem é irmã de pedro
+%gerou(X,Irmã),gerou(X,pedro),feminino(Irmã).
